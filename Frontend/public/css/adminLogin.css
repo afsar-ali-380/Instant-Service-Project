@@ -1,0 +1,78 @@
+.admin-head{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.admin-login{
+    margin-top: 30px;
+    width: 500px;
+    height: 205px;
+    background-color: white;
+    margin-left: 515px;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 3px 3px slategray;
+}
+
+.admin-login-div{
+    margin: 10px;
+    padding-left: 65px;
+}
+
+.admin-login-lb{
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.9;
+    padding-top: 20px ;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.admin-login-inp{
+    width: 200px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+    border-bottom: 3.5px solid gray;
+    border-left: 3px solid gray;
+    margin-left: 50px;
+    position: relative;
+    left: 65px;
+    bottom: 30px;
+}
+
+.admin-login-inp::placeholder{
+    padding-left: 7px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.admin-login-inp:focus{
+    outline: none;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
+    color:#000000;
+    opacity: 0.85;
+    font-size: 17px;
+    padding-left: 8px;
+}
+
+.admin-login-inp:focus::placeholder{
+    opacity: 0.5;
+}
+
+.admin-login-btn{
+    width: 85px;
+    height: 35px;
+    /* border-radius: 5px; */
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.admin-login-btn:hover{
+    box-shadow: 2px 2px 2px 2px grey;
+    outline: none;
+    transform: scale(1.05,1.05);
+    /* background-color: white; */
+    /* color: black; */
+}

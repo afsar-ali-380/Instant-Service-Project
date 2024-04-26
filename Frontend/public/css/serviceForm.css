@@ -1,0 +1,88 @@
+.sr-form-sect{
+    height: 735px;
+    background-color: rgb(186,186,186);
+}
+
+.sr-form-head{
+    width: 500px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 515px;
+}
+
+.sr-form-head-con{
+    font-size: 23px;
+    border-bottom: 2.5px solid white;
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bolder;
+}
+
+.sr-form-cont{
+    height: 575px;
+    width: 500px;
+    background-color: white;
+    position: relative;
+    z-index: 9999;
+    top: 50px;
+    left: 515px;
+    padding-top: 20px;
+    box-shadow: 3px 3px 3px 3px slategrey;
+}
+
+
+.sr-form-div{
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.sr-field{
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.sr-form-inp{
+    border: 1.5px solid black;
+    border-bottom: 2.5px solid black;
+    border-left: 2.5px solid black;
+    width: 195px;
+    height: 32px;
+}
+
+.sr-form-inp:focus{
+    outline: none;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+
+.sr-opt-div{
+    padding-left: 10px;
+}
+.sr-opt{
+    border: 1.5px solid black;
+    border-bottom: 2.5px solid black;
+    border-left: 2.5px solid black;
+    height: 35px;
+    width: 195px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.sr-btn{
+    margin-top: 20px;
+    width: 140px;
+    height: 50px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.sr-btn:hover{
+    color: black;
+    background-color: white;
+    border-color: black;
+    box-shadow: 2px 2px 2px 2px black;
+}

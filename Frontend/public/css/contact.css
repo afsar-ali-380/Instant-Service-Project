@@ -1,0 +1,156 @@
+.contact-section{
+    width: 100%;
+    height: 750px;
+    background-image: linear-gradient(to right, rgba(186, 186, 186,0.1), rgba(0,0,0,0.01)),url('../images/contact-img.jpg');
+    background-size: 100% 100%;
+    /* background-color: orangered; */
+}
+
+.inside-content{
+    width: 650px;
+    height: 250px;
+    /* background-color: blueviolet; */
+    position: relative;
+    top: 50px;
+    left: 100px;
+    z-index: 999;
+}
+
+.cont-1{
+    font-size: 43px;
+    color: white;
+    font-weight: bolder;
+}
+
+.cont-2{
+    margin-top: 20px;
+    font-size: 21px;
+    color: white;
+    font-weight: 600;
+}
+
+.down-section{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+    top: 355px;
+}
+
+.dw-sect-cont-1{
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    padding-top: 17px;
+    font-weight: 450;
+}
+
+.dw-sect-cont-2{
+    position: absolute;
+    left: 1250px;
+    bottom: 25px;
+}
+
+.dw-cont-2{
+    text-decoration: none;
+    font-size: 21px;
+    color: orangered;
+    border-bottom: 2px solid black;
+}
+
+.dw-cont-2:hover{
+    border-color: seagreen;
+}
+
+.cont-form-section-above{
+    height: 70px;
+    background-color: white;
+    position: relative;
+}
+
+.contact-us-div{
+    width: 400px;
+    height: 45px;
+    /* background-color: palevioletred; */
+    position: absolute;
+    z-index: 9999;
+    left: 240px;
+    top:20px;
+    border-bottom: 3px solid seagreen;
+
+}
+.contact-us{
+    font-size: 32.5px;
+    font-weight: bolder;
+    color: orangered;
+    opacity: 0.9;
+}
+    
+.find-us-div{
+    width: 400px;
+    height: 45px;
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    z-index: 9999;
+    left: 877px;
+    top: 20px;
+    border-bottom: 3px solid seagreen;
+}
+
+.find-us{
+    font-size: 32.5px;
+    font-weight: bolder;    
+    color: orangered;
+    opacity: 0.9;
+}
+
+.cont-form-section{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont-form-sect{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(186, 186, 186);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.cont-map-sect{
+    width: 400px;
+    height: 300px;
+    background-color: rgba(186, 186, 186);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.cont-form-inp{
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.cont-form-inp::placeholder{
+    font-size: 18px;
+    opacity: 0.8;
+    padding-left: 10px;
+}
+
+.cont-form-inp:focus{
+    outline: none;
+    font-size: 18px;
+    color: gray;
+}
+
+.cont-form-inp:hover{
+    outline: 3.5px solid rgba(186, 186, 186);
+}

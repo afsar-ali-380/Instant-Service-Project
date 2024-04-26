@@ -1,0 +1,315 @@
+.about-above-section{
+    width: 100%;
+    height: 90px;
+    background-color: #000000;
+    opacity: 0.95;
+}
+
+.ab-sect-con{
+    color: white;
+    font-size: 34px;
+    padding-top: 15px;
+    padding-left: 45px;
+    font-weight: bolder;
+}
+
+.about-mid-section{
+    height: 700px;
+    background-image: linear-gradient(red, blue);
+}
+
+.about-section{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    background-image: url('../images/imgmg.jpg');
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.about-section-head{
+    width: 700px;
+    height: 360px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    z-index: 999999;
+    top: 115px;
+    left: 100px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.55);
+    box-sizing: border-box;
+    border: 1.5px solid white;
+}
+
+.about-section-head:hover{
+    /* background-color: rgba(0,0,0,0.45); */
+    color: white;
+    /* opacity: 0.85; */
+    border: 1.5px solid white;
+    box-sizing: border-box;
+}
+
+.about-section-head-content{
+    font-size: 24px;
+    font-weight: 475;
+    padding: 30px 80px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    /* color: #000000; */
+    opacity: 0.9;
+    color: white;
+}
+
+.about-section-head-content::first-letter{
+    font-size: 35px;
+}
+
+.about-section-know-more{
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+}
+
+.about-section-know-more button{
+    font-size: 12px;
+    color: white;
+    background-color: #000000;
+    opacity: 0.9;
+    width: 85px;
+    height: 35px;
+}
+
+.about-section-know-more button:hover{
+    /* transform: scale(1.05,1.05); */
+    box-shadow: 1px 1px 1px 1px rgba(255,255,255,0.5);
+}
+.ab-mid-sect-con{
+    width: 750px;
+    height: 400px;
+    background-image: url('../images/imfr.jpg');
+    position: absolute;
+    top: 15px;
+    left: 105px;
+    /* border: 2px solid gray; */
+    box-shadow: 2px 2px 2px 2px black;
+    background-size: 100% 100%;
+}
+.ab-mid-cont-cont{
+    width: 750px;
+    height: 400px;
+    position: relative;
+    z-index: 9999;
+    left: 105px;
+    top: 15px;
+    box-sizing: border-box;
+    padding: 40px;
+}
+.ab-mid-sect-cont{
+    color: white;
+    font-size: 25px; 
+}
+.ab-mid-cont-cont:hover{
+    background-color: black;
+    opacity: 0.45;
+}
+
+.about-img {
+    width: 515px;
+    height: 600px;
+    /* background-color: white; */
+    background-image: url('../images/slider-img.png');
+    background-size: 100% 100%;
+    position: relative;
+    left: 900px;
+    /* bottom: 400px; */
+    /* border: 2px solid black; */
+}
+
+
+
+.footer-section-container{
+    height: 375px;
+    background-color: #000000;
+    opacity: 0.85;
+}
+
+.footer-section{
+    height: 300px;
+    position: relative;
+    top: 20px;
+    /* background-color: red; */
+}
+
+.footer-section-right{
+    height: 270px;
+    width: 600px;
+    position: absolute;
+    top: 32px;
+    left: 50px;
+    border-right: 2px solid gray ;
+    /* background-color: blue; */
+}
+
+.footer-section-left{
+    width: 675px;
+    height: 275px;
+    background-color: rgb(186, 186, 186);
+    position: absolute;
+    left: 700px;
+    top: 30px;
+    border-radius: 20px;
+}
+
+.right-footer-section-con{
+    font-size: 22px;
+    color: white;
+    opacity: 0.95;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.about-us-explore{
+        color: orangered;
+        font-size: 27.5px;
+        font-weight: bold;
+        width: 450px;
+        border-bottom: 2px solid seagreen;
+        padding-left: 10px;
+}
+
+.right-footer-section-con ul li{
+    list-style: none;
+}
+.right-footer-section-con ul li a{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    font-size: 16.5px;
+    color: white;
+    /* opacity: 0.9; */
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+    width: 150px;
+    text-decoration: none;
+}
+
+.right-footer-section-con ul li a:hover{
+    text-decoration: none;
+    color: orangered;
+    border-bottom: 2px solid seagreen;
+
+}
+
+.right-footer-section-con-2 ul li {
+    padding-top: 4px;
+}
+
+.right-footer-section-con-2 ul li a{
+    width: 150px;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    left:300px;
+    bottom: 110px;
+    font-size: 16.5px;
+    color: white;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-footer-section-con-2 ul li a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid seagreen;
+    color: orangered;
+}
+
+.footer-section-left span{
+    position: relative;
+    top: 17px;
+    left: 275px;
+    font-size: 19px;
+    color: #000000;
+    opacity: 0.95;
+    text-shadow: 2px 2px 2px gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-section-left-team{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+
+.footer-section-left-team-1{
+    width: 175px;
+    height: 185px;
+    background-color: rgb(54, 53, 53);
+    border-radius: 25px 0;
+}
+
+.footer-section-left-team-2{
+    width: 175px;
+    height: 185px;
+    background-color: rgb(54, 53, 53);
+    border-radius: 25px 0;
+}
+
+.footer-section-left-team-3{
+    width: 175px;
+    height: 185px;
+    background-color: rgb(54, 53, 53);
+    border-radius: 25px 0;
+}
+
+.footer-section-left-team-1-img{
+    width: 135px;
+    height: 135px;
+    background-color: rgb(186, 186, 186);
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-image: url('../images/team1.png');
+    background-size: 100% 100%;
+}
+
+.footer-section-left-team-2-img{
+    width: 135px;
+    height: 135px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: rgb(186, 186, 186);
+    background-image: url('../images/team2.png');
+    background-size: 100% 100%;
+}
+
+.footer-section-left-team-3-img{
+    width: 135px;
+    height: 135px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: rgb(186, 186, 186);
+    background-image: url('../images/team3.png');
+    background-size: 100% 100%;
+}
+
+.footer-section-left-team a{
+    position: relative;
+    top: 8px;
+    left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-section-left-team a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid seagreen;
+    color: orangered;
+}
+

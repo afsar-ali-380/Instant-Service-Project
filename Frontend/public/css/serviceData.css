@@ -1,0 +1,42 @@
+.sr-data-head{
+    height: 80px;
+    background-color: rgb(186, 186, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sr-data-head span{
+    font-size: 23px;
+    font-weight: 550;
+}
+
+.sr-data-mid-sect{
+    /* height: 700px; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sr-data-mid-sect-cont{
+    width: 1250px;
+    /* height: 650px; */
+    background-color: rgb(186, 186, 186);
+    margin: 25px 0;
+}
+
+.tr-th{
+    width: 200px;
+    padding: 25px;
+    font-size: 19.5px;
+    color: white;
+    background-color: black;
+}
+
+.tr-td{
+    width: 200px;
+    padding: 15px;
+    background-color: white;
+    font-size: 18px;
+}

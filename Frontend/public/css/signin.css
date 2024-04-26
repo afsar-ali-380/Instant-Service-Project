@@ -1,0 +1,78 @@
+.sign-in-head{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.sign-in{
+    margin-top: 25px;
+    width: 500px;
+    height: 215px;
+    background-color: white;
+    margin-left: 515px;
+    padding: 20px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 3px 3px slategray;
+}
+
+.sign-in-div{
+    margin: 15px;
+    padding-left: 60px;
+}
+
+.sign-in-lb{
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.9;
+    /* padding-left: ; */
+    font-family:'Times New Roman', Times, serif;
+}
+
+.sign-in-inp{
+    width: 200px;
+    height: 33px;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+    border-bottom: 3.5px solid gray;
+    border-left: 3px solid gray;
+    /* margin-left: 50px; */
+    position: relative;
+    left: 120px;
+    bottom: 30px;
+}
+
+.sign-in-inp::placeholder{
+    padding-left: 7px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.sign-in-inp:focus{
+    outline: none;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px gray;
+    color:#000000;
+    opacity: 0.85;
+    font-size: 17px;
+    padding-left: 8px;
+}
+
+.sign-in-inp:focus::placeholder{
+    opacity: 0.5;
+}
+
+.sign-in-btn{
+    width: 85px;
+    height: 35px;
+    /* border-radius: 5px; */
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.sign-in-btn:hover{
+    box-shadow: 2px 2px 2px 2px grey;
+    outline: none;
+    transform: scale(1.05,1.05);
+    /* background-color: white; */
+    /* color: black; */
+}

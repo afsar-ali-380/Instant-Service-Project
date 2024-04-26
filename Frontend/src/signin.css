@@ -1,0 +1,66 @@
+body{
+    font-family: 'new-font';
+    background-color: rgb(186 186 186);
+}
+
+@font-face {
+    font-family: 'new-font';
+    src: url(/public/font/Roboto-Medium.ttf);
+}
+
+#signin-h{
+    font-size: 1.85rem;
+    text-align: center;
+    padding-top: 20px;
+    color: #000000;
+    font-weight: lighter;
+}
+
+.con{
+    /* border: 2px solid black; */
+    width: 515px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    margin-top: 35px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+table,tr,td{
+    padding: 20px;
+    font-size: 17px;
+    opacity: 0.95;
+}
+
+table tr td input{
+    height: 30px;
+    width: 195px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+}
+
+table tr td input:focus{
+    font-size: 16px;
+    opacity: 0.95;
+    outline: none;
+}
+
+::placeholder{
+    padding-left: 2px;
+    font-size: 14px;
+}
+
+#signin-btn{
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: seagreen;
+    color: white;
+    font-size: 0.9rem;
+}
+
+#signin-btn:hover{
+    transform: scale(1.15,1.15);
+}
