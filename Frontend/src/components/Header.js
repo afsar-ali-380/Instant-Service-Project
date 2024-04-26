@@ -6,7 +6,6 @@ export default function Header() {
 
     // const adminName = sessionStorage.getItem('adminName');
     const adminEmail = sessionStorage.getItem('adminEmail');
-    const adminPic = sessionStorage.getItem('adminPic');
     const adminToken = sessionStorage.getItem('adminToken');
 
     const userToken = sessionStorage.getItem('userToken');
@@ -31,7 +30,7 @@ export default function Header() {
                 </ul>
             </div>
             {
-                adminToken ? <div className="above-header-right special-class"><Link to="#">admin : {adminEmail}</Link><img src={`http://localhost:4000/${adminPic}`} className='special-img-class' alt='admin.png'/> 
+                adminToken ? <div className="above-header-right special-class"><Link to="#">admin : {adminEmail}</Link> 
                 <button className="above-header-right-logout" type='button' onClick={logOut}>logOut</button></div>
                         : <div className="above-header-right"><Link to="/admin-login">Admin</Link></div>
             }

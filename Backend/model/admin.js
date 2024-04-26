@@ -6,7 +6,6 @@ const adminSchema = new mongoose.Schema({
     password: String,
     conpassword: String,
     mobile: Number,
-    img: String,
     date: {type: Date, default: Date.now}
 })
 

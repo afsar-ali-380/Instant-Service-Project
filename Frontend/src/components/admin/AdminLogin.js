@@ -31,7 +31,6 @@ export default function AdminLogin() {
                 if(json.msg === 'Admin logged in successfully'){
                     sessionStorage.setItem('adminName', json.adminData.name);
                     sessionStorage.setItem('adminEmail', json.adminData.email);
-                    sessionStorage.setItem('adminPic', json.adminData.img);
                     sessionStorage.setItem('adminToken', json.token);
                     redirect('/service-data');
                 }

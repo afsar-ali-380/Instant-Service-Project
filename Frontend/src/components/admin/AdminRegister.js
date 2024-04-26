@@ -8,19 +8,14 @@ export default function AdminRegister() {
         password:'',
         conpassword:'',
         mobile:'',
-        img:''
     })
 
     const handler = (e) => {
         setState({...state, [e.target.name]: e.target.value});
     }
 
-    const fileHandler = (e) => {
-        setState({...state, img: e.target.files[0]});
-    }
-
     const register = function(){
-        const {name, email, password, conpassword, mobile, img} = state;
+        const {name, email, password, conpassword, mobile} = state;
 
         if(password === conpassword){
             
@@ -31,7 +26,6 @@ export default function AdminRegister() {
             formData.append("password", password)
             formData.append("conpassword", conpassword)
             formData.append("mobile", mobile)
-            formData.append("img", img)
 
             fetch('http://localhost:4000/admin/register',{
                 method: 'POST',
@@ -87,11 +81,6 @@ export default function AdminRegister() {
                 <div className='admin-field-div'>
                     <label className='admin-lb'>Contact number</label>
                     <input type='text' name='mobile' value={state.mobile} onChange={handler} placeholder='Mobile' className='admin-inp' style={{marginLeft:90}}/>
-                </div>
-
-                <div className='admin-field-div'>
-                    <label className='admin-lb' style={{marginLeft:30}}>Profile picture</label>
-                    <input type='file' name='img' onChange={fileHandler} style={{marginLeft:80,backgroundColor:'white',color:'black'}}/>
                 </div>
 
                 <div className='admin-field-div'>

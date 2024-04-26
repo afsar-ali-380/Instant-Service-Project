@@ -19,38 +19,22 @@ const saltRounds = 10;
 
 const jwt = require('jsonwebtoken');
 
-app.use(express.static('uploads'));
-
-const multer = require('multer');
-
-const storage = multer.diskStorage({
-    destination: function(req, file, cb){
-        cb(null, './uploads')
-    },
-    filename: function(req, file, cb){
-        cb(null, file.originalname)
-    }
-});
-
-const upload = multer({storage});
-
 app.get('/', (req, res) => {
     res.send('<h2>Home page of server app</h2>');
 })
 
 
 // admin api
-app.post('/admin/register', upload.single('img'), async(req, res) => {
+app.post('/admin/register', async(req, res) => {
     const {name, email, password, conpassword, mobile} = req.body;
 
     const preAdmin = await Admin.findOne({email})
     if(!preAdmin){
-        const photo = typeof req.file != 'undefined' ? req.file.filename: null;
-        
+                
         const hashPass = await bcrypt.hash(password, saltRounds)
         const hashConPass = await bcrypt.hash(conpassword, saltRounds)
 
-        const adminData = new Admin({name, email, password: hashPass, conpassword: hashConPass, mobile, img: photo})
+        const adminData = new Admin({name, email, password: hashPass, conpassword: hashConPass, mobile})
         const saveData = await adminData.save()
         res.send({msg:'Admin registered successfully', data: saveData});
     }
